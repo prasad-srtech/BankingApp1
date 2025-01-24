@@ -30,7 +30,7 @@ spec:
   selector:
     app: bankapp-eta-app
 
-  type: NodePort
+  type: LoadBalancer
   ports:
   - nodePort: 31032    
     port: 8082
