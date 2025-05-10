@@ -13,7 +13,7 @@ pipeline {
         stage('SCM Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                // git 'https://github.com/prasad-gamut/BankingApp1.git'
+                git 'https://github.com/prasad-srtech/BankingApp1.git'
 		        checkout scm
             }
 		}
